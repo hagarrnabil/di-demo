@@ -1,4 +1,4 @@
-package com.example.didemo.services;
+package services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;

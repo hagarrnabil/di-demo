@@ -1,4 +1,4 @@
-package com.example.didemo.services;
+package services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
@@ -6,11 +6,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Primary
-@Profile("de")
-public class PrimaryGermanGreetingService implements GreetingService{
+@Profile({"en", "default"})
+public class PrimaryGreetingService implements GreetingService{
     @Override
     public String sayGreeting() {
-
-        return "Primärer Grußdienst";
+        return "Hi, injected by the Primary";
     }
 }

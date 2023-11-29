@@ -1,8 +1,8 @@
 package com.example.didemo.controllers;
 
-import com.example.didemo.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
+import services.GreetingServiceImpl;
 
 import static org.junit.Assert.assertEquals;
 
