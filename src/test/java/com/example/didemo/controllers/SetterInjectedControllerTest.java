@@ -2,7 +2,7 @@ package com.example.didemo.controllers;
 
 import org.junit.Before;
 import org.junit.Test;
-import services.GreetingServiceImpl;
+import com.example.didemo.services.GreetingServiceImpl;
 
 import static org.junit.Assert.assertEquals;
 

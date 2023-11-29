@@ -3,7 +3,7 @@ package com.example.didemo.controllers;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
-import services.GreetingService;
+import com.example.didemo.services.GreetingService;
 
 //best way of dependency injection using constructors
 @Controller

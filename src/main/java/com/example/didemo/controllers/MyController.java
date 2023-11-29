@@ -2,7 +2,7 @@ package com.example.didemo.controllers;
 
 
 import org.springframework.stereotype.Controller;
-import services.GreetingService;
+import com.example.didemo.services.GreetingService;
 
 @Controller
 public class MyController {
